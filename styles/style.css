@@ -1,6 +1,7 @@
 /* all stylea */
 * {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* navigation bar and logo styles */
@@ -33,7 +34,7 @@ nav {
 .nav-info {
     color: white;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 36px;
     position: relative;
     top: 28px;
@@ -42,6 +43,7 @@ nav {
 .nav-item {
     list-style: none;
 }
+
 .nav-item-img {
     list-style: none;
     position: relative;
@@ -49,7 +51,17 @@ nav {
 }
 
 /* top player style */
-/* .players{
+.players {
     display: grid;
-    grid-template-columns: repeat(3,1fr)
-} */
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
