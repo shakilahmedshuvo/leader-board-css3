@@ -143,9 +143,12 @@ nav {
 }
 
 /* course styles */
-.course .course-banner img {
-    height: 104px;
-    width: 224px;
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.courses .course-banner img {
+    height: 104flex;   width: 224px;
 }
 
 .course-info {
